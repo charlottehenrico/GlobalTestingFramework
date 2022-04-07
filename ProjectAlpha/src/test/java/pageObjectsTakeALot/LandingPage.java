@@ -1,23 +1,40 @@
 package pageObjectsTakeALot;
 
+import org.openqa.selenium.By;
+
 import frameworkClasses.BasePage;
 
 public class LandingPage extends BasePage{
 	
-	//navigate to landing page
+	//landPG.checkLandingPage();
+	//landPG.clicktab("Clearance");
+	//langPG.checkURL("https://www.takealot.com/promotion/clearancesale");
+	//landPG.checkBanner("Clearance");
 	
-	//click search for product input box
+	public boolean checkLandingPage(String LandingURL) {
+		return false;
+	}
+		
 	
-	//search for product
+	public void selectItem(String selectItem) {
+		
+	}
 	
-	//click to search button
+	public boolean checkURL(String PageURL) {
+		return false;
+	}
+		
+
+	public void clickSearchButton() {
+		
+	}
 	
-	//click first item
-	
-	//click add to cart
-	
-	//click go to cart
-	
-	//check that item is added to cart
+	public void clickCartItem() {
+		
+	}
+
+	public void clickSearchBar() {
+		clickElement(By.name("search"));
+	}
 
 }
