@@ -1,5 +1,6 @@
 package testsTakeALot;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjectsTakeALot.BaseTakeAlot;
@@ -25,6 +26,14 @@ public class Tests {
 	public void GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed(){
 		baseTakealot.navigateToHome();
 		landPG.clickSearchBar();
+		landPG.enterTextInSearchBar("DKNY");
+		landPG.clickSearchButton();
+//		System.out.println("This is the text:  " + landPG.checkElementTextOfFirstItem());
+		resultsPG.clickElementTextOfFirstItem();
+		//Assert.assertEquals(resultsPG.checkFirstItemBrand("DKNY"),true);
+		//Thread.sleep(200);
+		//Assert.assertEquals(resultsPG.checkFirstItemDescription("DKNY Origin"), true);
+	
 		/*2
 		* GIVEN the shopper is on the landing page
 		* WHEN he enters "DKNY" as the search string
@@ -32,8 +41,5 @@ public class Tests {
 		* THEN "DKNY" is displayed as the first item in the grid
 		*/
 	
-		
-	
-		
 	}
 	}

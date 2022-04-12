@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T14:43:11Z" name="Default suite" finished-at="2022-04-07T14:43:16Z" duration-ms="5534">
+  <suite started-at="2022-04-12T06:59:43Z" name="Default suite" finished-at="2022-04-12T06:59:57Z" duration-ms="14023">
     <groups>
     </groups>
-    <test started-at="2022-04-07T14:43:11Z" name="Default test" finished-at="2022-04-07T14:43:16Z" duration-ms="5534">
+    <test started-at="2022-04-12T06:59:43Z" name="Default test" finished-at="2022-04-12T06:59:57Z" duration-ms="14023">
       <class name="testsTakeALot.Tests">
-        <test-method signature="GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed()[pri:0, instance:testsTakeALot.Tests@34a1d21f]" started-at="2022-04-07T14:43:11Z" name="GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed" finished-at="2022-04-07T14:43:16Z" duration-ms="5400" status="PASS">
+        <test-method signature="GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed()[pri:0, instance:testsTakeALot.Tests@34a1d21f]" started-at="2022-04-12T06:59:43Z" name="GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed" finished-at="2022-04-12T06:59:57Z" duration-ms="13931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GIVEN_userOnLandingPage_WHEN_userSearchesDKNYitem_AND_userClicksSearchButton_THEN_DKNYBeDelicious50mlIsDisplayed -->

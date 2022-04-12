@@ -91,7 +91,7 @@ public class BasePage {
 	//Method: Click on an element
 	public void clickElement(By pLocator) {
 		waitforClick(30, pLocator);
-		getElement(pLocator);
+		getElement(pLocator).click();
 		
 	}
 	
