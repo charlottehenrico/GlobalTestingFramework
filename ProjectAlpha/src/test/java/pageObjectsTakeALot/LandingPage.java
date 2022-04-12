@@ -1,15 +1,12 @@
 package pageObjectsTakeALot;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import frameworkClasses.BasePage;
 
 public class LandingPage extends BasePage {
 
-	// landPG.checkLandingPage();
-	// landPG.clicktab("Clearance");
-	// langPG.checkURL("https://www.takealot.com/promotion/clearancesale");
-	// landPG.checkBanner("Clearance");
 
 	public boolean checkLandingPage(String LandingURL) {
 		return false;
@@ -46,6 +43,5 @@ public class LandingPage extends BasePage {
 		return text1;
 	}
 
-	
 
 }
